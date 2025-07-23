@@ -1,0 +1,117 @@
+{
+  "personal": {
+    "name": "Phung Le",
+    "username": "phungle",
+    "host": "shegga9x",
+    "github": "shegga9x",
+    "title": "Phung Le",
+    "description": "Average Everyday Developer",
+    "site": "https://www.strikeraryu.com"
+  },
+  "links": {
+    "attributes": {
+      "City": {
+        "content": "Ho Chi Minh"
+      },
+
+      "Phone": {
+        "content": "+84382508253"
+      },
+      "Email": {
+        "content": "ledinhphung25082000p@gmail.com",
+        "link": "mailto:ledinhphung25082000p@gmail.com"
+      },
+      "GitHub": {
+        "content": "@shegga9x",
+        "link": "https://github.com/shegga9x"
+      },
+      "LinkedIn": {
+        "content": "/in/phùng-lê-a67947193",
+        "link": "https://www.linkedin.com/in/ph%C3%B9ng-l%C3%AA-a67947193/"
+      }
+    
+    }
+  },
+  "navigation": {
+    "sections": [
+      {
+        "name": "Home",
+        "shortcut": "H",
+        "path": "/",
+        "description": "Welcome to my portfolio",
+        "icon": "⌂",
+        "color": "#4a90e2"
+      },
+      {
+        "name": "Projects",
+        "shortcut": "P",
+        "path": "/projects",
+        "description": "Things I've built",
+        "icon": "⚒",
+        "color": "#ff6347"
+      },
+      {
+        "name": "About",
+        "shortcut": "A",
+        "path": "/about",
+        "description": "Who I am",
+        "icon": "☻",
+        "color": "#daa520"
+      },
+      {
+        "name": "Links",
+        "shortcut": "L",
+        "path": "/links",
+        "description": "Find me elsewhere",
+        "icon": "⇄",
+        "color": "#9370db"
+      }
+    ]
+  },
+  "gallery": {
+    "enableFloatAnimation": true,
+    "gridGap": 10
+  },
+  "theme": {
+    "current": "dark",
+    "fonts": {
+      "primary": "'Monaco', 'Menlo', 'Ubuntu Mono', monospace",
+      "secondary": "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+      "mono": "'Monaco', 'Menlo', 'Ubuntu Mono', monospace"
+    },
+    "colors": {
+      "dark": {
+        "background": "#000000",
+        "background2": "#111111",
+        "foreground": "#FAF9F6",
+        "foreground2": "#808080",
+        "cursor": "#53BDFA",
+        "selection": "#B3B1AD",
+        "accent": "#C7D274",
+        "error": "#EA6C73",
+        "warning": "#F9AF4F",
+        "info": "#53BDFA",
+        "success": "#90E1C6",
+        "border": "#333333",
+        "glow": "#C7D274"
+      },
+      "light": {
+        "background": "#F4ECD8",
+        "background2": "#E6DCC3",
+        "foreground": "#1E1E1E",
+        "foreground2": "#5E5E5E",
+        "cursor": "#005F87",
+        "selection": "#DCD2B5",
+        "accent": "#C09C2C",
+        "error": "#C8413A",
+        "warning": "#D28400",
+        "info": "#3A80A8",
+        "success": "#3F8B4F",
+        "border": "#C9B89E",
+        "glow": "#C09C2C"
+      }
+    }
+  }
+}
+
+

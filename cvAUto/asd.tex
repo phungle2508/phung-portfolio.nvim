@@ -1,0 +1,122 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{xcolor}
+\usepackage{helvet}
+\usepackage{changepage}
+\renewcommand{\familydefault}{\sfdefault}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue,
+    linkcolor=black,
+    pdfauthor={Le Dinh Phung},
+    pdftitle={Curriculum Vitae}
+}
+
+
+\definecolor{maincolor}{RGB}{0,76,153}
+
+\titleformat{\section}
+  {\color{maincolor}\Large\bfseries}
+  {}{0em}{}
+\titleformat{\subsection}
+  {\color{maincolor}\normalsize\bfseries}
+  {}{0em}{}
+
+\begin{document}
+
+\begin{center}
+    {\Huge\bfseries\color{maincolor} Le Dinh Phung} \\[0.5em]
+\end{center}
+
+\vspace{1em}
+
+\section{Personal Information}
+\begin{adjustwidth}{2em}{}
+\textbf{Name:} Le Dinh Phung
+
+\textbf{Email:} \href{mailto:ledinhphung25082000p@gmail.com}{ledinhphung25082000p@gmail.com}
+
+\textbf{GitHub:} \href{https://github.com/shegga9x}{My Git}
+
+\textbf{Phone:} 0382508253
+\end{adjustwidth}
+
+\section{Summary}
+\begin{adjustwidth}{2em}{}
+\textbf{Backend Developer} specializing in \textbf{Java} and \textbf{Spring Boot}. Experienced in building \textbf{scalable applications}, integrating authentication systems, and optimizing database performance. Proficient in \textbf{Next.js} for frontend, and familiar with AWS OpenSearch. Recently expanding expertise in \textbf{microservices architecture}, Docker, and Nginx for deployment and orchestration.
+\end{adjustwidth}
+
+\section{Experience}
+\begin{adjustwidth}{2em}{}
+\textbf{FJS System} (Internship - 4 months)
+\begin{itemize}[leftmargin=*]
+    \item Gained hands-on experience in backend development using \textbf{Java} and \textbf{Struts}.
+\end{itemize}
+\end{adjustwidth}
+
+\section{Technical Skills}
+\begin{adjustwidth}{2em}{}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Programming:} Java (Spring, Java Core), JavaScript (Next.js)
+    \item \textbf{Backend:} Spring Boot, Spring Security, OAuth2, Struts
+    \item \textbf{Frontend:} Next.js, React
+    \item \textbf{Databases:} MySQL
+    \item \textbf{Version Control:} Git, GitHub
+    \item \textbf{Cloud/Deployment:} AWS (EC2, RDS, S3, Tebi), Vercel
+\end{itemize}
+\end{adjustwidth}
+
+\newpage
+
+\section{Projects}
+\begin{adjustwidth}{2em}{}
+\subsection{Book Store Application}
+
+\textbf{GitHub:} \href{https://github.com/shegga9x/book-store-app}{BookStore Repository}
+
+\textbf{Technologies:} Java, Spring Boot, Next.js, AWS Services (EC2, RDS, S3, Tebi), GHN, VNPay
+
+\textbf{Key Features:}
+\begin{itemize}[leftmargin=*]
+    \item Developed advanced book sorting and filtering functionalities.
+    \item Implemented secure authentication with \textbf{OAuth2}.
+    \item Built a \textbf{scalable cloud-based infrastructure} on AWS, supporting up to \textbf{2 million book records}.
+    \item Integrated online payment via \textbf{VNPay} and shipping services with \textbf{GHN}.
+    \item Planned optimization of search queries using Elasticsearch.
+\end{itemize}
+
+\vspace{1em}
+
+\subsection{Social Media App (AppF4)}
+
+\textbf{GitHub:} \href{https://github.com/shegga9x/appf4}{AppF4 Repository}
+
+% \textbf{Live Demo:} Backend - \href{http://appf4.io.vn}{appf4.io.vn}, Frontend - \href{http://social.appf4s.io.vn}{social.appf4s.io.vn}
+
+\textbf{Overview:} A social media platform developed with a team of four to explore microservices and micro frontends. My role: backend architecture, deployment workflow, and integration of enterprise-grade technologies.
+
+\textbf{Key Contributions:}
+\begin{itemize}[leftmargin=*]
+    \item Designed a scalable backend using JHipster microservices and Spring Boot.
+    \item Set up production deployment workflow with Docker, Nginx, and VPS.
+    \item Implemented Liquibase for automated DB migrations.
+    \item Integrated Keycloak for centralized authentication and role-based access.
+    \item Configured Jenkins pipelines for automated CI/CD.
+    \item Initiated integration of Kafka and Elasticsearch.
+\end{itemize}
+
+\textbf{Technologies Used:}
+\begin{itemize}[leftmargin=*]
+    \item Backend: JHipster, Spring Boot, Kafka, Redis, Consul, Liquibase
+    \item Frontend: Microfrontend with React
+    \item Database: PostgreSQL
+    \item DevOps \& CI/CD: Docker, Nginx, VPS, Jenkins
+\end{itemize}
+\end{adjustwidth}
+
+\end{document}
