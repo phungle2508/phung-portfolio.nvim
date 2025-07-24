@@ -320,7 +320,7 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <title>striker@Aryamaan-Jain.local</title>
+        <title>shegga9x@PhungLe.local</title>
         <link rel="icon" href="/me.jpg" />
         {/* Preload Google Inter font subset to avoid Flash Of Unstyled Text */}
         <link
