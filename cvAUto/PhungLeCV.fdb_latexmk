@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1753329941.08337 "/home/phungvip/Desktop/work-space/mycv/portfolio.nvim/cvAUto/PhungLeCV.tex" "PhungLeCV.pdf" "PhungLeCV" 1753329941.43492 0
+["pdflatex"] 1753450986.14809 "/home/phungvip/Desktop/work-space/phung-portfolio.nvim/cvAUto/PhungLeCV.tex" "PhungLeCV.pdf" "PhungLeCV" 1753450986.67561 0
   "/etc/texmf/web2c/texmf.cnf" 1751424260.22886 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/phungvip/Desktop/work-space/mycv/portfolio.nvim/cvAUto/PhungLeCV.tex" 1753329922.54039 4406 f15a10a6d0241d7184c2e62ba49ace8c ""
+  "/home/phungvip/Desktop/work-space/phung-portfolio.nvim/cvAUto/PhungLeCV.tex" 1753450985.89851 5513 b11f90d317de0127da3ef0d313a16de0 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1136768653 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
@@ -61,15 +61,16 @@
   "/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty" 1576624809 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657483315 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty" 1736023606 48766 87a17a4ef312a39cd43896e34a679a56 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty" 1730496337 32879 f4cfa2226c995da5b04a89ee47abf182 ""
   "/usr/share/texlive/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty" 1727642399 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1741904018 41538 c016915c1d51223b6dbbfe27341748a8 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1741904018 41538 c016915c1d51223b6dbbfe27341748a8 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1751424282 5467255 9a64d1b40e0b893fc5588ecce9d8accf ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1751424369 3350290 93c81a66d7f290d33a3a87db136fcd98 ""
-  "PhungLeCV.aux" 1753329941.40169 968 19011889de71d8b3cc098dd829d5360b "pdflatex"
-  "PhungLeCV.out" 1753329941.40169 891 33b1e1608d307870e8844c300dbe27f0 "pdflatex"
-  "PhungLeCV.tex" 1753329922.54039 4406 f15a10a6d0241d7184c2e62ba49ace8c ""
+  "PhungLeCV.aux" 1753450986.6335 1102 59582b8b29ed95bfa8975fb499ffe4c7 "pdflatex"
+  "PhungLeCV.out" 1753450986.6345 1089 dd219841f8226c623761894a29f21935 "pdflatex"
+  "PhungLeCV.tex" 1753450985.89851 5513 b11f90d317de0127da3ef0d313a16de0 ""
   (generated)
   "PhungLeCV.aux"
   "PhungLeCV.log"

@@ -8,6 +8,7 @@
 \usepackage{xcolor}
 \usepackage{helvet}
 \usepackage{changepage}
+\usepackage{multicol} % Add this to your preamble
 \renewcommand{\familydefault}{\sfdefault}
 \hypersetup{
     colorlinks=true,
@@ -77,23 +78,9 @@
 
 \section{Projects}
 \begin{adjustwidth}{2em}{}
-\subsection{Book Store Application}
+\begin{multicols}{2}
 
-\textbf{GitHub:} \href{https://github.com/shegga9x/book-store-app}{BookStore Repository}
-
-\textbf{Technologies:} Java, Spring Boot, Next.js, AWS Services (EC2, RDS, S3, Tebi), GHN, VNPay
-
-\textbf{Key Features:}
-\begin{itemize}[leftmargin=*]
-    \item Developed advanced book sorting and filtering functionalities.
-    \item Implemented secure authentication with \textbf{OAuth2}.
-    \item Built a \textbf{scalable cloud-based infrastructure} on AWS, supporting up to \textbf{2 million book records}.
-    \item Integrated online payment via \textbf{VNPay} and shipping services with \textbf{GHN}.
-    \item Planned optimization of search queries using Elasticsearch.
-\end{itemize}
-
-\vspace{1em}
-
+% First column: Social Media App (AppF4)
 \subsection{Social Media App (AppF4)}
 
 \textbf{GitHub:} \href{https://github.com/shegga9x/appf4}{AppF4 Repository}
@@ -119,6 +106,52 @@
     \item Database: PostgreSQL
     \item DevOps \& CI/CD: Docker, Nginx, VPS, Jenkins
 \end{itemize}
+
+\end{multicols}
+
+\begin{center}
+    \rule{0.8\textwidth}{0.5pt}
+\end{center}
+
+\begin{multicols}{2}
+
+% Second column: Book Store Application & Antoree E-Learning Platform
+
+\subsection{Book Store Application}
+
+\textbf{GitHub:} \href{https://github.com/shegga9x/book-store-app}{BookStore Repository}
+
+\textbf{Technologies:} Java, Spring Boot, Next.js, AWS Services (EC2, RDS, S3, Tebi), GHN, VNPay
+
+\textbf{Key Features:}
+\begin{itemize}[leftmargin=*]
+    \item Developed advanced book sorting and filtering functionalities.
+    \item Implemented secure authentication with \textbf{OAuth2}.
+    \item Built a \textbf{scalable cloud-based infrastructure} on AWS, supporting up to \textbf{2 million book records}.
+    \item Integrated online payment via \textbf{VNPay} and shipping services with \textbf{GHN}.
+    \item Planned optimization of search queries using Elasticsearch.
+\end{itemize}
+
+\vspace{1em}
+
+\subsection{Antoree E-Learning Platform}
+
+\textbf{GitHub:} \href{https://github.com/phungle2508/Antoree-Intern-Project}{Antoree Repository}
+
+\textbf{Live Demo:} \href{https://antoree-intern-project.vercel.app}{antoree-intern-project.vercel.app}
+
+\textbf{Technologies:} Next.js, Tailwind CSS, AI Chat
+
+\textbf{Overview:} Developed a modern E-Learning platform template featuring smart course recommendations powered by AI chat. The project leverages Next.js and Tailwind CSS for rapid development and responsive design.
+
+\textbf{Key Features:}
+\begin{itemize}[leftmargin=*]
+    \item AI-powered chat for personalized course recommendations.
+    \item Modern, responsive UI built with Next.js and Tailwind CSS.
+    \item Template designed for scalability and easy integration of new features.
+\end{itemize}
+
+\end{multicols}
 \end{adjustwidth}
 
 \end{document}

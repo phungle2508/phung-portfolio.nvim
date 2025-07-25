@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.7.2)  24 JUL 2025 11:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.7.2)  25 JUL 2025 20:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/phungvip/Desktop/work-space/mycv/portfolio.nvim/cvAUto/PhungLeCV.tex
-(/home/phungvip/Desktop/work-space/mycv/portfolio.nvim/cvAUto/PhungLeCV.tex
+**/home/phungvip/Desktop/work-space/phung-portfolio.nvim/cvAUto/PhungLeCV.tex
+(/home/phungvip/Desktop/work-space/phung-portfolio.nvim/cvAUto/PhungLeCV.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -200,36 +200,105 @@ Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS)
 Package: changepage 2009/10/20 v1.0c check page and change page layout
 \c@cp@cntr=\count287
 \cp@tempcnt=\count288
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
+\c@tracingmulticols=\count289
+\mult@box=\box54
+\multicol@leftmargin=\dimen160
+\c@unbalance=\count290
+\c@collectmore=\count291
+\doublecol@number=\count292
+\multicoltolerance=\count293
+\multicolpretolerance=\count294
+\full@width=\dimen161
+\page@free=\dimen162
+\premulticols=\dimen163
+\postmulticols=\dimen164
+\multicolsep=\skip55
+\multicolbaselineskip=\skip56
+\partial@page=\box55
+\last@line=\box56
+\mc@boxedresult=\box57
+\maxbalancingoverflow=\dimen165
+\mult@rightbox=\box58
+\mult@grightbox=\box59
+\mult@firstbox=\box60
+\mult@gfirstbox=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\c@minrows=\count295
+\c@columnbadness=\count296
+\c@finalcolumnbadness=\count297
+\last@try=\dimen166
+\multicolovershoot=\dimen167
+\multicolundershoot=\dimen168
+\mult@nat@firstbox=\box98
+\colbreak@box=\box99
+\mc@col@check@num=\count298
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 18.
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 30.
+Package hyperref Info: Option `colorlinks' set `true' on input line 19.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 31.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count289
-\l__pdf_internal_box=\box54
+\l__color_backend_stack_int=\count299
+\l__pdf_internal_box=\box100
 ) (./PhungLeCV.aux)
 \openout1 = `PhungLeCV.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -265,26 +334,26 @@ LaTeX Font Info:    ... okay on input line 30.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 30.
+Package hyperref Info: Link coloring ON on input line 31.
 (./PhungLeCV.out) (./PhungLeCV.out)
 \@outlinefile=\write3
 \openout3 = `PhungLeCV.out'.
 
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count290
-\scratchdimen=\dimen160
-\scratchbox=\box55
-\nofMPsegments=\count291
-\nofMParguments=\count292
+\scratchcounter=\count300
+\scratchdimen=\dimen169
+\scratchbox=\box101
+\nofMPsegments=\count301
+\nofMParguments=\count302
 \everyMPshowfont=\toks23
-\MPscratchCnt=\count293
-\MPscratchDim=\dimen161
-\MPnumerator=\count294
-\makeMPintoPDFobject=\count295
+\MPscratchCnt=\count303
+\MPscratchDim=\dimen170
+\MPnumerator=\count304
+\makeMPintoPDFobject=\count305
 \everyMPtoPDFconversion=\toks24
 )
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 59.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 60.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
@@ -292,8 +361,8 @@ File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-Overfull \hbox (6.44135pt too wide) in paragraph at lines 90--91
-[]\OT1/phv/m/n/10.95 Built a \OT1/phv/b/n/10.95 scal-able cloud-based in-fras-truc-ture \OT1/phv/m/n/10.95 on AWS, sup-port-ing up to \OT1/phv/b/n/10.95 2 mil-lion book records\OT1/phv/m/n/10.95 . 
+Underfull \hbox (badness 8170) in paragraph at lines 129--130
+[]\OT1/phv/m/n/10.95 Implemented se-cure au-then-ti-ca-tion with
  []
 
 
@@ -304,21 +373,21 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `PhungLeCV.out' has not changed.
-(rerunfilecheck)             Checksum: 33B1E1608D307870E8844C300DBE27F0;891.
+(rerunfilecheck)             Checksum: DD219841F8226C623761894A29F21935;1089.
  ) 
 Here is how much of TeX's memory you used:
- 9889 strings out of 473197
- 153272 string characters out of 5718606
- 570631 words of memory out of 5000000
- 33041 multiletter control sequences out of 15000+600000
+ 10033 strings out of 473197
+ 155694 string characters out of 5718606
+ 579751 words of memory out of 5000000
+ 33180 multiletter control sequences out of 15000+600000
  567321 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,79p,1259b,500s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,79p,1260b,595s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on PhungLeCV.pdf (2 pages, 27874 bytes).
+Output written on PhungLeCV.pdf (2 pages, 28891 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 70 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 500000)
+ 65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
