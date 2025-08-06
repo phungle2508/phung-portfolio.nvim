@@ -13,7 +13,6 @@
       "City": {
         "content": "Ho Chi Minh"
       },
-
       "Phone": {
         "content": "+84382508253"
       },
@@ -29,7 +28,6 @@
         "content": "/in/phùng-lê-a67947193",
         "link": "https://www.linkedin.com/in/ph%C3%B9ng-l%C3%AA-a67947193/"
       }
-    
     }
   },
   "navigation": {
@@ -64,6 +62,14 @@
         "path": "/links",
         "description": "Find me elsewhere",
         "icon": "⇄",
+        "color": "#9370db"
+      },
+      {
+        "name": "My CV",
+        "shortcut": "M",
+        "path": "/cv",
+        "description": "This is my CV",
+        "icon": "📄",
         "color": "#9370db"
       }
     ]
@@ -113,5 +119,3 @@
     }
   }
 }
-
-
