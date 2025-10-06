@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.7.2)  25 JUL 2025 20:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.7.2)  6 OCT 2025 14:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -270,8 +270,8 @@ Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
 \colbreak@box=\box99
 \mc@col@check@num=\count298
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 19.
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 31.
+Package hyperref Info: Option `colorlinks' set `true' on input line 20.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 32.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -281,24 +281,24 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (./PhungLeCV.aux)
 \openout1 = `PhungLeCV.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -308,22 +308,22 @@ LaTeX Font Info:    ... okay on input line 31.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
-* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* h-part:(L,W,R)=(51.21504pt, 495.07779pt, 51.21504pt)
+* v-part:(T,H,B)=(51.21504pt, 742.61676pt, 51.21504pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=483.69687pt
-* \textheight=731.23584pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-52.36449pt
+* \textwidth=495.07779pt
+* \textheight=742.61676pt
+* \oddsidemargin=-21.05495pt
+* \evensidemargin=-21.05495pt
+* \topmargin=-58.05495pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
 * \footskip=30.0pt
 * \marginparwidth=50.0pt
 * \marginparsep=10.0pt
-* \columnsep=10.0pt
+* \columnsep=12.0pt
 * \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
@@ -334,7 +334,7 @@ LaTeX Font Info:    ... okay on input line 31.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 31.
+Package hyperref Info: Link coloring ON on input line 32.
 (./PhungLeCV.out) (./PhungLeCV.out)
 \@outlinefile=\write3
 \openout3 = `PhungLeCV.out'.
@@ -353,7 +353,7 @@ Package hyperref Info: Link coloring ON on input line 31.
 \makeMPintoPDFobject=\count305
 \everyMPtoPDFconversion=\toks24
 )
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 60.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 65.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
@@ -361,8 +361,13 @@ File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-Underfull \hbox (badness 8170) in paragraph at lines 129--130
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 []\OT1/phv/m/n/10.95 Implemented se-cure au-then-ti-ca-tion with
+ []
+
+
+Underfull \hbox (badness 6927) in paragraph at lines 167--168
+[]\OT1/phv/m/n/10.95 Modern e-commerce in-ter-face built with
  []
 
 
@@ -373,21 +378,21 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `PhungLeCV.out' has not changed.
-(rerunfilecheck)             Checksum: DD219841F8226C623761894A29F21935;1089.
+(rerunfilecheck)             Checksum: 1486199C30411D48ADBAC3DF121F410C;1157.
  ) 
 Here is how much of TeX's memory you used:
- 10033 strings out of 473197
- 155694 string characters out of 5718606
- 579751 words of memory out of 5000000
- 33180 multiletter control sequences out of 15000+600000
+ 10034 strings out of 473197
+ 155704 string characters out of 5718606
+ 579743 words of memory out of 5000000
+ 33181 multiletter control sequences out of 15000+600000
  567321 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,79p,1260b,595s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,79p,1260b,597s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on PhungLeCV.pdf (2 pages, 28891 bytes).
+Output written on PhungLeCV.pdf (2 pages, 29650 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 71 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  11 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 

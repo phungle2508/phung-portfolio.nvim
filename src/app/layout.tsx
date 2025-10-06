@@ -320,7 +320,7 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <title>shegga9x@PhungLe.local</title>
+        <title>phungle2508@PhungLe.local</title>
         <link rel="icon" href="/me.jpg" />
         {/* Preload Google Inter font subset to avoid Flash Of Unstyled Text */}
         <link
@@ -331,7 +331,7 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
           crossOrigin="anonymous"
         />
         <meta property="og:image" content={`${config.personal.site}/home.png`} />
-        <meta property="og:title" content="striker@Aryamaan-Jain.local" />
+        <meta property="og:title" content="phungle@phungle2508.local" />
         <meta property="og:description" content={config.personal.description} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content={`${config.personal.site}/home.png`} />
