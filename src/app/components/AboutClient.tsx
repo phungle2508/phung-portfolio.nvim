@@ -15,8 +15,8 @@ export default function AboutClient({ logoArt, bios }: AboutClientProps) {
   const normalizedLogo = normalizeAscii(logoArt);
   const [selectedBio, setSelectedBio] = useState(0);
   const [aboutContent, setAboutContent] = useState<string>(bios[0]);
-  const [contentCache] = useState<Record<number, string>>({ 0: bios[0], 1: bios[1], 2: bios[2], 3: bios[3], 4: bios[4] });
-  const [isContentLoaded] = useState(true);
+  const [contentCache, setContentCache] = useState<Record<number, string>>({ 0: bios[0], 1: bios[1], 2: bios[2], 3: bios[3], 4: bios[4] });
+  const [isContentLoaded, setIsContentLoaded] = useState(true);
 
   // Simple markdown-ish renderer (same as previous logic)
   const renderMarkdown = (text: string) => {
@@ -48,8 +48,43 @@ export default function AboutClient({ logoArt, bios }: AboutClientProps) {
   };
 
   // Fetch about content based on selectedBio
-  const loadAboutContent = (bioIdx: number) => {
-    setAboutContent(contentCache[bioIdx]);
+  const loadAboutContent = async (bioIdx: number) => {
+    // For AI option (index 4), call the AI API
+    if (bioIdx === 4) {
+      // Check cache first
+      if (contentCache[4] && contentCache[4] !== bios[4]) {
+        setAboutContent(contentCache[4]);
+        return;
+      }
+
+      setIsContentLoaded(false);
+      try {
+        const response = await fetch('/api/ai/bio', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+        });
+
+        if (response.ok) {
+          const data = await response.json();
+          const generatedContent = data.content || bios[4];
+          setAboutContent(generatedContent);
+          // Cache the AI-generated content
+          setContentCache((prev) => ({ ...prev, 4: generatedContent }));
+        } else {
+          // Fallback to default AI bio on error
+          setAboutContent(bios[4]);
+        }
+      } catch (error) {
+        console.error('Error fetching AI bio:', error);
+        setAboutContent(bios[4]);
+      } finally {
+        setIsContentLoaded(true);
+      }
+    } else {
+      setAboutContent(contentCache[bioIdx]);
+    }
   };
 
   // re-load when selection changes
