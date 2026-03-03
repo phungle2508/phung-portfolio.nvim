@@ -1,6 +1,6 @@
 \documentclass[11pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
-\usepackage[left=1.8cm,right=1.8cm,top=1.8cm,bottom=1.8cm]{geometry}
+\usepackage[left=1.8cm,right=1.8cm,top=1.5cm,bottom=1.5cm]{geometry}
 \usepackage{hyperref}
 \usepackage{enumitem}
 \usepackage{titlesec}
@@ -8,168 +8,106 @@
 \usepackage{xcolor}
 \usepackage{helvet}
 \usepackage{changepage}
-\usepackage{multicol} % Add this to your preamble
-\setlist[itemize]{topsep=0pt,itemsep=0.2em,leftmargin=*}
+\usepackage{fontawesome5}
+\setlist[itemize]{topsep=0pt,itemsep=0.15em,leftmargin=*}
 \renewcommand{\familydefault}{\sfdefault}
 \hypersetup{
     colorlinks=true,
     urlcolor=blue,
     linkcolor=black,
     pdfauthor={Le Dinh Phung},
-    pdftitle={Curriculum Vitae}
+    pdftitle={Curriculum Vitae - Fresher Backend Developer}
 }
 
-
 \definecolor{maincolor}{RGB}{0,76,153}
+\definecolor{accentcolor}{RGB}{51,51,51}
 
-\titleformat{\section}{\color{maincolor}\Large\bfseries}{}{0em}{}
-\titleformat{\subsection}{\color{maincolor}\normalsize\bfseries}{}{0em}{}
+\titleformat{\section}{\color{maincolor}\large\bfseries}{}{0em}{}[\vspace{-0.3em}\color{maincolor}\rule{\linewidth}{0.5pt}]
+\titleformat{\subsection}{\color{accentcolor}\normalsize\bfseries}{}{0em}{}
 \titlespacing*{\section}{0pt}{0.6em}{0.4em}
-\titlespacing*{\subsection}{0pt}{0.4em}{0.3em}
-\setlength{\parskip}{0.35em}
-\setlength{\columnsep}{12pt}
+\titlespacing*{\subsection}{0pt}{0.3em}{0.1em}
+\setlength{\parskip}{0em}
 
 \begin{document}
 
 \begin{center}
-    {\Huge\bfseries\color{maincolor} Le Dinh Phung} \\[0.5em]
-    \href{https://portfolio.phungvip.io.vn/}{My Portfolio}
-
+	{\LARGE\bfseries\color{maincolor} LE DINH PHUNG} \\[0.25em]
+	{\normalsize\color{accentcolor} Fresher Backend Developer} \\[0.3em]
+	\small
+	\faIcon{envelope}~\href{mailto:ledinhphung25082000p@gmail.com}{ledinhphung25082000p@gmail.com}
+	~~\faIcon{phone}~0382508253
+	~~\faIcon{github}~\href{https://github.com/phungle2508}{github.com/phungle2508}
+	~~\faIcon{globe}~\href{https://phung-portfolio-nvim.vercel.app/}{phung-portfolio-nvim.vercel.app}
 \end{center}
 
-\vspace{1em}
+\vspace{0.3em}
 
-\section{Personal Information}
-\begin{adjustwidth}{2em}{}
-\textbf{Name:} Le Dinh Phung
-
-\textbf{Email:} \href{mailto:ledinhphung25082000p@gmail.com}{ledinhphung25082000p@gmail.com}
-
-\textbf{GitHub:} \href{https://github.com/phungle2508}{My Git}
-
-\textbf{Phone:} 0382508253
-\end{adjustwidth}
-
-\section{Summary}
-\begin{adjustwidth}{2em}{}
-\textbf{Backend-focused Fresher Developer} with hands-on experience in \textbf{Java (Spring Boot)} and \textbf{microservices}. Built and deployed production-ready services with \textbf{Docker}, \textbf{Nginx}, \textbf{Keycloak}, and \textbf{Liquibase} on VPS/AWS. Comfortable with \textbf{REST API} design, authentication (\textbf{OAuth2/JWT}), and \textbf{MySQL}. Also capable on the frontend with \textbf{Next.js/TypeScript} when needed.
-\end{adjustwidth}
-
-
-
-
-
-\section{Experience}
-\begin{adjustwidth}{2em}{}
-\textbf{FJS System} (Internship - 6 months)
-\begin{itemize}[leftmargin=*]
-    \item Gained hands-on experience in backend development using \textbf{Java} and \textbf{Struts}.
-\end{itemize}
-
-\textbf{Antoree} (Frontend Developer - 3 months)
-\begin{itemize}[leftmargin=*]
-    \item Developed frontend applications using \textbf{Next.js} and modern web technologies.
-\end{itemize}
+\section{Objective}
+\begin{adjustwidth}{1em}{}
+	\small
+	Fresher backend developer seeking an internship or entry-level Java/Spring Boot position. Experienced in building real projects with Spring Boot, REST APIs, and relational databases. Eager to learn and contribute in a professional engineering team.
 \end{adjustwidth}
 
 \section{Technical Skills}
-\begin{adjustwidth}{2em}{}
-\begin{itemize}[leftmargin=*]
-    \item \textbf{Programming:} Java (Spring Boot, Core Java, Java 8+), TypeScript, JavaScript
-    \item \textbf{Backend:} Spring Boot, Spring Security, OAuth2/JWT, REST APIs, Microservices (JHipster), Keycloak, Liquibase, Struts
-    \item \textbf{Frontend:} Next.js, React, Tailwind CSS
-    \item \textbf{Databases:} MySQL, PostgreSQL
-    \item \textbf{Tools:} Git, GitHub, Git-flow, Maven
-    \item \textbf{Cloud/Deployment:} Docker, Nginx, VPS, AWS (EC2, RDS, S3), Vercel
-    \item \textbf{Testing:} JUnit (basic)
-\end{itemize}
+\begin{adjustwidth}{1em}{}
+	\small
+	\begin{tabular}{@{}p{2.8cm}l}
+		\textbf{Languages} & Java (Java 8+), SQL, JavaScript                                      \\[0.15em]
+		\textbf{Backend}   & Spring Boot, Spring Security, Spring Data JPA, OAuth2/JWT, REST APIs \\[0.15em]
+		\textbf{Database}  & MySQL, PostgreSQL                                                    \\[0.15em]
+		\textbf{Tools}     & Git, Maven, Docker (basic), Postman                                  \\
+	\end{tabular}
 \end{adjustwidth}
 
-\newpage
+\section{Internship Experience}
+\begin{adjustwidth}{1em}{}
+	\small
+	\textbf{FJS System} \textit{| Java Developer Intern} \hfill \textit{6 months}
+	\begin{itemize}
+		\item Developed backend features with \textbf{Java} and \textbf{Struts framework} in an enterprise environment
+		\item Participated in code reviews and followed team development practices
+	\end{itemize}
+
+	\vspace{0.3em}
+
+	\textbf{Antoree} \textit{| Frontend Intern} \hfill \textit{3 months}
+	\begin{itemize}
+		\item Built UI components with \textbf{Next.js/TypeScript} and consumed REST APIs
+		\item Followed Git-flow workflow and contributed to production releases
+	\end{itemize}
+\end{adjustwidth}
 
 \section{Projects}
-\begin{adjustwidth}{2em}{}
-\begin{multicols}{2}
+\begin{adjustwidth}{1em}{}
+	\small
 
-% First column: RideHub Travel Ticket Platform
-\subsection{RideHub - Travel Ticket Platform}
+	\textbf{RideHub --- Travel Booking Platform} \quad
+	\href{https://github.com/LeTrungMiniuh/ridehub}{GitHub} \\
+	\textit{Team of 2 | Backend Developer | Stack: Spring Boot, JHipster, Keycloak, MySQL}
+	\begin{itemize}
+		\item Built a microservices backend with Spring Boot, JHipster, and Consul service discovery
+		\item Integrated \textbf{Keycloak} for centralized authentication and role-based access control
+		\item Configured API Gateway and automated DB migrations with \textbf{Liquibase}
+	\end{itemize}
 
-\textbf{GitHub:} \href{https://github.com/LeTrungMiniuh/ridehub}{RideHub Repository}
+	\vspace{0.3em}
 
-\textbf{Live Demo:} \href{https://apigateway.microservices.appf4s.io.vn/}{Demo}
+	\textbf{Book Store --- E-commerce Application} \quad
+	\href{https://github.com/phungle2508/book-store-app}{GitHub} \\
+	\textit{Solo Project | Stack: Java, Spring Boot, MySQL, Next.js, OAuth2}
+	\begin{itemize}
+		\item Built REST API backend with Spring Boot handling a catalog of books with advanced filtering
+		\item Implemented \textbf{OAuth2} login with Spring Security and integrated \textbf{VNPay} payment gateway
+		\item Designed relational database schema optimized for query performance
+	\end{itemize}
 
-\textbf{Team Size:} 2 members
+\end{adjustwidth}
 
-\textbf{Role:} Backend development, deployment workflow, and integration of enterprise-grade technologies
-
-\textbf{Overview:} A travel ticket booking platform using microservices architecture.
-
-\textbf{Key Contributions:}
-\begin{itemize}[leftmargin=*]
-    \item Designed a scalable backend using JHipster microservices and Spring Boot.
-    \item Set up production deployment workflow with Docker, Nginx, and VPS.
-    \item Implemented Liquibase for automated DB migrations.
-    \item Integrated Keycloak for centralized authentication and role-based access.
-    \item Configured API Gateway for service orchestration.
-\end{itemize}
-
-\textbf{Technologies Used:}
-\begin{itemize}[leftmargin=*]
-    \item Backend: JHipster, Spring Boot, Redis, Consul, Liquibase
-    \item Frontend: React with TypeScript
-    \item Database: MySQL
-    \item DevOps: Docker, Nginx, VPS
-\end{itemize}
-
-\end{multicols}
-
-\begin{center}
-    \rule{0.8\textwidth}{0.5pt}
-\end{center}
-
-\begin{multicols}{2}
-
-% Second column: Book Store Application & Antoree E-Learning Platform
-
-\subsection{Book Store Application}
-
-\textbf{GitHub:} \href{https://github.com/phungle2508/book-store-app}{BookStore Repository}
-
-\textbf{Technologies:} Java, Spring Boot, Next.js, AWS Services (EC2, RDS, S3, Tebi), GHN, VNPay
-
-\textbf{Key Features:}
-\begin{itemize}[leftmargin=*]
-    \item Developed advanced book sorting and filtering functionalities.
-    \item Implemented secure authentication with \textbf{OAuth2}.
-    \item Built a \textbf{scalable cloud-based infrastructure} on AWS, supporting up to \textbf{2 million book records}.
-    \item Integrated online payment via \textbf{VNPay} and shipping services with \textbf{GHN}.
-    \item Planned optimization of search queries using Elasticsearch.
-\end{itemize}
-
-\vspace{1em}
-
-\subsection{Adam Store - E-commerce Platform}
-
-\textbf{GitHub:} \href{https://github.com/lean2708/fe-adam-store}{Adam Store Repository}
-
-\textbf{Live Demo:} \href{https://fe-adam-store.vercel.app/}{Demo}
-
-\textbf{Technologies:} Next.js, TypeScript, Tailwind CSS
-
-\textbf{Team Size:} 3 members
-
-\textbf{Role:} Frontend development and design pattern implementation
-
-\textbf{Overview:} Developed a modern e-commerce platform featuring professional development workflow and modern UI/UX design.
-
-\textbf{Key Features:}
-\begin{itemize}[leftmargin=*]
-    \item Modern e-commerce interface built with Next.js and TypeScript.
-    \item Responsive design using Tailwind CSS and modern design patterns.
-    \item Professional Git-flow workflow with automated deployment.
-\end{itemize}
-
-\end{multicols}
+\section{Education \& English}
+\begin{adjustwidth}{1em}{}
+	\small
+	\textbf{Nong Lam University (NLU)} \textit{| Information Technology} \\[0.15em]
+	\textbf{English:} Intermediate
 \end{adjustwidth}
 
 \end{document}
